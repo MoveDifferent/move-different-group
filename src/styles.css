@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;700&family=Sora:wght@400;600;700;800&display=swap');
+
+:root {
+  --md-navy: #0B1120;
+  --md-dark: #080E1A;
+  --md-accent: #112240;
+  --md-green: #1DB954;
+  --md-gold: #D4AF37;
+  --md-slate: #4A6080;
+  --md-light: #F8FAFC;
+}
+
+/* Custom Utilities as standard CSS */
+.font-serif {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.font-heading {
+  font-family: "Sora", sans-serif;
+}
+
+.font-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.display-hero {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.display-lg {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-lg {
+  font-family: "Sora", sans-serif;
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.label-caps {
+  font-family: "Sora", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.body-lg {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--md-slate);
+}
+
+.body-md {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--md-slate);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #D4AF37 0%, #F1D279 50%, #D4AF37 100%);
+}
+
+.shadow-green {
+  box-shadow: 0 10px 30px -10px rgba(29, 185, 84, 0.3);
+}
+
+.shadow-gold {
+  box-shadow: 0 10px 30px -10px rgba(212, 175, 55, 0.3);
+}
+
+.shadow-deep {
+  box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Base resets or additions if needed */
+.bg-md-navy { background-color: var(--md-navy); }
+.bg-md-dark { background-color: var(--md-dark); }
+.bg-md-accent { background-color: var(--md-accent); }
+.text-md-green { color: var(--md-green); }
+.text-md-slate { color: var(--md-slate); }
+.border-md-green { border-color: var(--md-green); }
